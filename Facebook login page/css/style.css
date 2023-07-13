@@ -1,0 +1,79 @@
+h1{
+  color: blue;
+  font-family:Verdana;
+}
+body{
+  background-color: rgb(202, 205, 215);
+  font-size: larger;
+}
+.frame{
+  position: absolute;
+  margin-top: 15%;
+  margin-left: 120px;
+}
+.form{
+  position: relative;
+  margin-top: 120px;
+  margin-left: 550px;
+  background-color: white;
+  width: 400px;
+  min-height: 250px;
+  padding: 8px;
+  border-radius: 8px;
+  text-align: center;
+  font-family: 'Times New Roman';
+}
+.light{
+  background-color: rgb(10, 141, 10);
+  color:whitesmoke;
+  border: none;
+  width: 150px;
+  min-height: 25px;
+  padding-top: 12px;
+  border-radius: 8px;
+}
+.light:hover{
+  background-color:gray;
+  color:whitesmoke;
+}
+#edit{
+  text-decoration: none;
+  color: white;
+}
+#df{
+  text-decoration: none;
+}
+.bdlight{
+  background-color: blue;
+  color:white;
+  border: none;
+  border-radius: 7px;
+  width: 380px;
+  height: 45px;
+  padding-top: 14px;
+}
+.bdlight:hover{
+  background-color:rgb(77, 111, 233);
+  color:white;
+}
+#card{
+  border-radius: 2px;
+  width: 380px;
+  height: 45px;
+  border-radius: 7px;
+  border-top-color: rgb(213, 234, 218);
+  border-bottom-color: rgb(162, 165, 163);
+  border-right-color:rgb(173, 176, 174);
+  border-left-color: rgb(213, 234, 218);
+}
+hr{
+  color: black;
+}
+button{
+  padding: 8px;
+  margin: 5px;
+  border: none;
+  color: white;
+  border-radius:5px;
+  background-color: blue;
+}
